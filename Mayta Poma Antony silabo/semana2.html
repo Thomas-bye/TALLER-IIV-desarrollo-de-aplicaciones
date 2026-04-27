@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Semana 2</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+    <h2>Semana 2</h2>
+    <ul>
+        <li onclick="mostrar('t1')">Computación en la Nube</li>
+        <li onclick="mostrar('t2')">Modelos de Despliegue</li>
+        <li onclick="mostrar('t3')">Video</li>
+    </ul>
+    <button class="btn-volver" onclick="location.href='index.html'">
+    ⬅ Volver al Inicio
+</button>
+</div>
+
+<div class="contenido">
+
+<div id="t1" class="tema activo">
+    <div class="card-tema">
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa">
+        <div class="overlay-tema">
+            <h2>Computación en la Nube</h2>
+            <p>
+            La computación en la nube permite almacenar y acceder a datos y aplicaciones a través de internet, 
+            sin necesidad de infraestructura física local. Esto facilita el acceso desde cualquier lugar y reduce costos.
+            </p>
+            <p>
+            Es clave en la transformación digital, ya que mejora la escalabilidad, flexibilidad y eficiencia empresarial.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="t2" class="tema">
+    <div class="card-tema">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d">
+        <div class="overlay-tema">
+            <h2>Modelos de Despliegue</h2>
+            <p>
+            Existen diferentes modelos como nube pública, privada e híbrida. Cada uno ofrece distintos niveles de control, 
+            seguridad y costos según las necesidades de la empresa.
+            </p>
+            <p>
+            La elección depende del tipo de organización y el manejo de la información.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<div id="t3" class="tema">
+   <div class="video-box">
+    <a href="https://www.youtube.com/watch?v=MCKdahh2lSo" target="_blank">
+        <img class="img-video" src="https://img.youtube.com/vi/MCKdahh2lSo/0.jpg">
+    </a>
+    <p>▶ Ver video - Semana 2</p>
+</div>
+
+    
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
